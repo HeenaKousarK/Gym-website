@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('Gym image.jpg');
+    color: white;
+    
+    
+    
+}
+.left{
+    position: absolute;
+  left: 35px;
+  top: 18px;
+   display: inline-block;
+   
+
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    
+   }
+.right{
+    display: inline-block;
+  
+  position: absolute;
+  right: 35px;
+  top: 18px;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+     
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+ color: white;
+ text-decoration: none;
+ padding: 10px;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: red;
+    
+   }
+   .left img{
+    line-height: 19px;
+    font-size: 26px;
+    width: 70px;
+
+   }
+   .btn{
+    margin: 0px 9px;
+    padding: 4px 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+   }
+   .btn:hover{
+    background-color: aqua;
+   }
+   .container{
+   
+    margin: 2px 50px;
+    padding: 20px  20px;
+    width: 33%px;
+    border-radius: 10px;
+   }
+   .form-group input{
+    font-family: 'Varela Round', sans-serif;
+    margin:2px 3px ;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding:5px;
+    border-radius: 20px;
+    font-size: 20px;
+
+   }
+   .container button{
+    display: block;
+    width: 508px;
+    padding:5px;
+    margin:2px 3px ;
+    
+   }
+   .left p{
+    margin: 3px;
+   }
